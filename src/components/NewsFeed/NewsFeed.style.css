@@ -1,0 +1,29 @@
+.news-area {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.news-area-area {
+  position: relative;
+}
+.news-area-area:after {
+  content: none;
+}
+
+.section-heading {
+  margin-bottom: 1rem;
+  color: #0f2d69;
+}
+
+@media only screen and (min-width: 768px) {
+  .news-area-area:after {
+    content: "";
+    width: 0;
+    height: 94%;
+    top: 3%;
+    position: absolute;
+    border: 1px solid #a5bbe1;
+    right: -15px;
+  }
+}

@@ -1,0 +1,47 @@
+.registration-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.form-input-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-label {
+  color: var(--c45e2a);
+  font-weight: var(--weight500);
+  padding: 0.3rem 0;
+}
+
+.input-element {
+  outline: none;
+  border: 2px solid lightgray;
+  height: 2.5rem;
+  font-size: 1.5rem;
+  padding: 0 0.5rem;
+  width: 100%;
+}
+
+.form-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-button {
+  border: none;
+  outline: none;
+  color: white;
+  padding: 0.8rem 2rem;
+  font-weight: var(--weight700);
+  letter-spacing: 0.08rem;
+}
+
+.cancel-btn {
+  background: var(--c45e2a);
+}
+
+.submit-btn {
+  background: #1f3764;
+}

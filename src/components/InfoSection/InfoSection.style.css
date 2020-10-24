@@ -1,0 +1,45 @@
+.info-section {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  position: relative;
+}
+
+.info-section:after {
+  content: none;
+}
+.welcome-msg {
+  font-weight: var(--weight500);
+}
+
+.username {
+  font-weight: var(--weight700);
+}
+
+.welcome-card {
+  background-color: #b4c7e7;
+  padding: 2rem;
+}
+
+.about-card {
+  background-color: #d0cece;
+  padding: 2rem;
+  color: #012160;
+  box-shadow: 0 -7px #002060;
+}
+
+.view-more {
+  font-weight: var(--weight500);
+}
+
+@media only screen and (min-width: 768px) {
+  .info-section:after {
+    content: "";
+    width: 0;
+    height: 94%;
+    top: 3%;
+    position: absolute;
+    border: 1px solid #a5bbe1;
+    right: -15px;
+  }
+}
